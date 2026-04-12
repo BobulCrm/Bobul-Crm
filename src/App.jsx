@@ -130,6 +130,171 @@ const THEMES = {
     green:"#60A870", red:"#B05050", blue:"#5080B0",
   },
 };
+// ─── TRANSLATIONS ─────────────────────────────────────────────────────────────
+const I18N = {
+  es: {
+    // Navigation
+    kanban:"Kanban", list:"Lista", stats:"Stats", tasks:"Tareas", calendar:"Agenda",
+    // Top bar
+    searchPlaceholder:"Buscar...", allStages:"Todas", newClient:"+ Nuevo",
+    // Stats bar
+    pipeline:"Pipeline", won:"Ganado", activeClients:"Clientes activos", totalClients:"Total clientes", pendingTasks:"Tareas pendientes", plan:"Plan",
+    // Client form
+    newClientTitle:"Nuevo cliente", editClientTitle:"Editar cliente", registerContact:"Registrar contacto",
+    name:"Nombre *", company:"Empresa", email:"Email", phone:"Teléfono", address:"Dirección (opcional)",
+    commercialInfo:"Información comercial", projectValue:"Valor del proyecto", currency:"Moneda",
+    stage:"Etapa", leadSource:"Fuente del lead", expectedClose:"Cierre esperado", lastContact:"Último contacto",
+    tags:"Etiquetas", projectNotes:"Notas del proyecto", notesPlaceholder:"Detalles, acuerdos, contexto del proyecto...",
+    privacyConsent:"Consentimiento de privacidad", privacyText:"{"El cliente ha dado su consentimiento para que sus datos sean tratados con fines comerciales, conforme al Aviso de Privacidad."} para que sus datos sean tratados con fines comerciales, conforme al Aviso de Privacidad.",
+    cancel:"Cancelar", registerBtn:"Registrar cliente", saveBtn:"Guardar cambios",
+    // Client detail tabs
+    info:"Info", activity:"Actividad", taskTab:"Tareas", files:"Archivos",
+    // Activity
+    quickSend:"Enviar mensaje rapido", logActivity:"Registrar actividad manual", activityType:"Actividad"Type,
+    activityNote:"Actividad"Note, activityDate:"Fecha", addActivity:"Agregar actividad",
+    noActivity:"Sin actividad registrada", history:"Historial",
+    // Tasks
+    newTask:"Nueva tarea", taskTitle:"Título de la tarea", priority:"Prioridad", dueDate:"Fecha límite",
+    addTask:"Agregar tarea", noTasks:"Sin tareas",
+    // Files
+    uploadFile:"Subir archivo", fileCategory:"Categoría", noFiles:"Sin archivos subidos",
+    download:"Descargar", preview:"Ver",
+    // Calendar
+    today:"Hoy", newEvent:"+ Evento", noUpcoming:"Sin eventos próximos — toca un día para agregar uno",
+    upcomingEvents:"Próximos eventos", eventTitle:"Título *", eventDate:"Fecha", eventTime:"Hora",
+    eventType:"Tipo", eventClient:"Cliente (opcional)", noClientAssoc:"Sin cliente asociado",
+    eventNotes:"Notas", addEvent:"Agregar", editEvent:"Editar evento", newEventTitle:"Nuevo evento",
+    deleteEvent:"Eliminar",
+    // Settings
+    settings:"Configuración", customize:"Personaliza tu CRM",
+    profileTab:"👤 Perfil", stagesTab:"📋 Etapas", categoryTab:"🏷️ Categoría", appearanceTab:"🎨 Apariencia", languageTab:"🌐 Idioma",
+    yourName:"Tu nombre", businessName:"Nombre de tu negocio", saveChanges:"Guardar cambios",
+    stagesDesc:"Edita los nombres, reordena arrastrando o agrega nuevas etapas.",
+    newStage:"+ Nueva etapa...", saveStages:"Guardar etapas",
+    categoryDesc:"Cambia tu categoría de actividad.",
+    appearanceDesc:"Elige la combinación de colores de tu CRM.",
+    languageDesc:"Elige el idioma de la aplicación.",
+    themeApplied:"Tema aplicado", profileUpdated:"✅ Perfil actualizado", stagesUpdated:"✅ Guardado correctamente",
+    // Menu
+    exportCSV:"↓ Exportar CSV", configuration:"⚙ Configuración", installApp:"⬇ Instalar app", signOut:"↪ Cerrar sesión",
+    // Auth
+    signIn:"Iniciar sesión", signUp:"Crear cuenta", forgotPassword:"¿Olvidaste tu contraseña?",
+    email2:"Correo electrónico", password:"Contraseña", rememberEmail:"Recordar mi email",
+    stayConnected:"Mantenerme conectado", sendResetLink:"Enviar enlace de recuperación",
+    noAccount:"¿No tienes cuenta?", hasAccount:"¿Ya tienes cuenta?", backToLogin:"← Volver al inicio",
+    // Pricing
+    choosePlan:"Elige tu plan", cancelAnytime:"Cancela cuando quieras · Precios incluyen IVA · Pago seguro con Stripe",
+    mostPopular:"MÁS POPULAR", free:"Gratis", forever:"para siempre", subscribe:"Suscribirme",
+    currentPlan:"Plan actual", continueFree:"Continuar con plan gratuito →", startFree:"Empezar gratis",
+    comingSoon:"Próximamente", inDevelopment:"En desarrollo",
+    // Onboarding
+    selectProfession:"¿Cuál es tu actividad principal?", searchProfession:"Buscar actividad...",
+    yourNameLabel:"¿Cómo te llamas?", namePlaceholder:"Tu nombre completo",
+    businessLabel:"Nombre de tu negocio / estudio (opcional)", businessPlaceholder:"Deja en blanco si trabajas solo",
+    salesStages:"Tus etapas de venta", stagesHint:"Puedes reordenarlas arrastrando · Editar nombres haciendo clic",
+    legalTitle:"Legal y privacidad", acceptTerms:"Acepto los", termsLink:"Términos de servicio",
+    acceptPrivacy:"y el", privacyLink:"Aviso de Privacidad",
+    gdprNote:"Tus datos están protegidos conforme al RGPD y la Ley Federal de Protección de Datos.",
+    back:"← Atrás", next:"Siguiente →", finish:"Comenzar",
+    // Misc
+    noClients:"Sin clientes aún", loading:"Cargando Bobul...", saving:"Guardando...",
+    selectSource:"{"Seleccionar..."}", days:"d", free2:"Gratis",
+  },
+  en: {
+    // Navigation
+    kanban:"Kanban", list:"List", stats:"Stats", tasks:"Tasks", calendar:"Calendar",
+    // Top bar
+    searchPlaceholder:"Search...", allStages:"All stages", newClient:"+ New",
+    // Stats bar
+    pipeline:"Pipeline", won:"Won", activeClients:"Active clients", totalClients:"Total clients", pendingTasks:"Pending tasks", plan:"Plan",
+    // Client form
+    newClientTitle:"New client", editClientTitle:"Edit client", registerContact:"Register contact",
+    name:"Name *", company:"Company", email:"Email", phone:"Phone", address:"Address (optional)",
+    commercialInfo:"Commercial info", projectValue:"Project value", currency:"Currency",
+    stage:"Stage", leadSource:"Lead source", expectedClose:"Expected close", lastContact:"Last contact",
+    tags:"Tags", projectNotes:"Project notes", notesPlaceholder:"Details, agreements, project context...",
+    privacyConsent:"Privacy consent", privacyText:"The client has given consent for their data to be processed for commercial purposes, in accordance with the Privacy Notice.",
+    cancel:"Cancel", registerBtn:"Register client", saveBtn:"Save changes",
+    // Client detail tabs
+    info:"Info", activity:"Activity", taskTab:"Tasks", files:"Files",
+    // Activity
+    quickSend:"Send quick message", logActivity:"Log activity manually", activityType:"Activity type",
+    activityNote:"Note / Description", activityDate:"Date", addActivity:"Add activity",
+    noActivity:"No activity recorded", history:"History",
+    // Tasks
+    newTask:"New task", taskTitle:"Task title", priority:"Priority", dueDate:"Due date",
+    addTask:"Add task", noTasks:"No tasks",
+    // Files
+    uploadFile:"Upload file", fileCategory:"Category", noFiles:"No files uploaded",
+    download:"Download", preview:"Preview",
+    // Calendar
+    today:"Today", newEvent:"+ Event", noUpcoming:"No upcoming events — tap a day to add one",
+    upcomingEvents:"Upcoming events", eventTitle:"Title *", eventDate:"Date", eventTime:"Time",
+    eventType:"Type", eventClient:"Client (optional)", noClientAssoc:"No associated client",
+    eventNotes:"Notes", addEvent:"Add", editEvent:"Edit event", newEventTitle:"New event",
+    deleteEvent:"Delete",
+    // Settings
+    settings:"Settings", customize:"Customize your CRM",
+    profileTab:"👤 Profile", stagesTab:"📋 Stages", categoryTab:"🏷️ Category", appearanceTab:"🎨 Appearance", languageTab:"🌐 Language",
+    yourName:"Your name", businessName:"Business name", saveChanges:"Save changes",
+    stagesDesc:"Edit names, reorder by dragging or add new stages.",
+    newStage:"+ New stage...", saveStages:"Save stages",
+    categoryDesc:"Change your activity category.",
+    appearanceDesc:"Choose your CRM color scheme.",
+    languageDesc:"Choose the application language.",
+    themeApplied:"Theme applied", profileUpdated:"✅ Profile updated", stagesUpdated:"✅ Saved successfully",
+    // Menu
+    exportCSV:"↓ Export CSV", configuration:"⚙ Settings", installApp:"⬇ Install app", signOut:"↪ Sign out",
+    // Auth
+    signIn:"Sign in", signUp:"Create account", forgotPassword:"Forgot your password?",
+    email2:"Email address", password:"Password", rememberEmail:"Remember my email",
+    stayConnected:"Keep me signed in", sendResetLink:"Send reset link",
+    noAccount:"Don't have an account?", hasAccount:"Already have an account?", backToLogin:"← Back to login",
+    // Pricing
+    choosePlan:"Choose your plan", cancelAnytime:"Cancel anytime · Prices include tax · Secure payment with Stripe",
+    mostPopular:"MOST POPULAR", free:"Free", forever:"forever", subscribe:"Subscribe",
+    currentPlan:"Current plan", continueFree:"Continue with free plan →", startFree:"Start for free",
+    comingSoon:"Coming soon", inDevelopment:"In development",
+    // Onboarding
+    selectProfession:"What is your main activity?", searchProfession:"Search activity...",
+    yourNameLabel:"What's your name?", namePlaceholder:"Your full name",
+    businessLabel:"Business / studio name (optional)", businessPlaceholder:"Leave blank if you work alone",
+    salesStages:"Your sales stages", stagesHint:"Drag to reorder · Click to edit names",
+    legalTitle:"Legal & privacy", acceptTerms:"I accept the", termsLink:"Terms of service",
+    acceptPrivacy:"and the", privacyLink:"Privacy Notice",
+    gdprNote:"Your data is protected in accordance with GDPR and applicable data protection laws.",
+    back:"← Back", next:"Next →", finish:"Get started",
+    // Misc
+    noClients:"No clients yet", loading:"Loading Bobul...", saving:"Saving...",
+    selectSource:"Select...", days:"d", free2:"Free",
+  }
+};
+
+const LEAD_SOURCES_I18N = {
+  es: ["Referido","Redes sociales","Sitio web","Google Ads","Email","LinkedIn","Llamada en frío","Evento / Feria","Otro"],
+  en: ["Referral","Social media","Website","Google Ads","Email","LinkedIn","Cold call","Event / Trade show","Other"],
+};
+const ACTIVITY_TYPES_I18N = {
+  es: ["📞 Llamada","📧 Email","🤝 Reunión","📝 Nota","📋 Propuesta enviada","💰 Pago recibido","⚠️ Seguimiento","✅ Tarea completada","✏️ Otra (personalizada)"],
+  en: ["📞 Call","📧 Email","🤝 Meeting","📝 Note","📋 Proposal sent","💰 Payment received","⚠️ Follow-up","✅ Task completed","✏️ Other (custom)"],
+};
+const TASK_PRIORITIES_I18N = {
+  es: ["Alta","Media","Baja"],
+  en: ["High","Medium","Low"],
+};
+const TAGS_OPTIONS_I18N = {
+  es: ["VIP","Recurrente","Urgente","En pausa","Potencial alto","Referido","Sin presupuesto"],
+  en: ["VIP","Recurring","Urgent","On hold","High potential","Referral","No budget"],
+};
+const EVENT_TYPES_I18N = {
+  es: ["Llamada","Reunión","Seguimiento","Propuesta","Pago","Otro"],
+  en: ["Call","Meeting","Follow-up","Proposal","Payment","Other"],
+};
+const WEEKDAYS_I18N = {
+  es: ["Lun","Mar","Mié","Jue","Vie","Sáb","Dom"],
+  en: ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],
+};
+
 const LEAD_SOURCES = ["Referido","Redes sociales","Sitio web","Google Ads","Email","LinkedIn","Llamada en frío","Evento / Feria","Otro"];
 const ACTIVITY_TYPES = ["📞 Llamada","📧 Email","🤝 Reunión","📝 Nota","📋 Propuesta enviada","💰 Pago recibido","⚠️ Seguimiento","✅ Tarea completada","✏️ Otra (personalizada)"];
 const TASK_PRIORITIES = ["Alta","Media","Baja"];
@@ -384,6 +549,7 @@ function Onboarding({onFinish}){
 
 // ---  ---CRM MAIN -----------------------------------------------------------------
 function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,onSignOut}){
+
   const {name,company,profession,stages:cfgStages}=config;
   const STAGES=cfgStages.map(s=>s.label);
   const COLORS=Object.fromEntries(cfgStages.map(s=>[s.label,s.color]));
@@ -711,12 +877,12 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
 
         <div style={{flex:1,position:"relative",minWidth:0}}>
           <span style={{position:"absolute",left:8,top:"50%",transform:"translateY(-50%)",color:T.textMuted,fontSize:11}}>◎</span>
-          <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Buscar..."
+          <input value={search} onChange={e=>setSearch(e.target.value)} placeholder={"Buscar..."}
             style={{...inputS,padding:"6px 8px 6px 24px",fontSize:12,width:"100%"}}/>
         </div>
 
         <select value={filterStage} onChange={e=>setFilterStage(e.target.value)} style={{background:T.card,border:`1px solid ${T.border}`,color:filterStage==="all"?T.textMuted:T.gold,borderRadius:2,padding:"6px 8px",fontSize:11,fontFamily:"'Jost',sans-serif",flexShrink:0,maxWidth:110}}>
-          <option value="all">Todas</option>
+          <option value="all">{"Todas"}</option>
           {STAGES.map(s=><option key={s}>{s}</option>)}
         </select>
 
@@ -725,18 +891,18 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
         <div style={{position:"relative",flexShrink:0}}>
           <button className="pBtn" onClick={()=>setShowMobileMenu(v=>!v)} style={{background:T.card,border:`1px solid ${T.border}`,color:T.textMuted,padding:"6px 10px",borderRadius:2,fontSize:17}}>⋮</button>
           {showMobileMenu&&(<div style={{position:"absolute",top:"110%",right:0,background:T.surface,border:`1px solid ${T.border}`,borderRadius:2,boxShadow:"0 8px 24px rgba(0,0,0,.15)",zIndex:200,minWidth:170,padding:6}} onClick={e=>e.stopPropagation()}>
-            <button className="pBtn" onClick={()=>{exportCSV();setShowMobileMenu(false);}} style={{display:"block",width:"100%",textAlign:"left",padding:"9px 12px",fontSize:12,color:T.text,background:"transparent",borderRadius:2}}>↓ Exportar CSV</button>
-            <button className="pBtn" onClick={()=>{setShowSettings(true);setShowMobileMenu(false);}} style={{display:"block",width:"100%",textAlign:"left",padding:"9px 12px",fontSize:12,color:T.text,background:"transparent",borderRadius:2}}>⚙ Configuración</button>
-            {installPromptCRM&&!installedCRM&&<button className="pBtn" onClick={()=>{handleInstallCRM();setShowMobileMenu(false);}} style={{display:"block",width:"100%",textAlign:"left",padding:"9px 12px",fontSize:12,color:T.gold,background:"transparent",borderRadius:2}}>⬇ Instalar app</button>}
+            <button className="pBtn" onClick={()=>{exportCSV();setShowMobileMenu(false);}} style={{display:"block",width:"100%",textAlign:"left",padding:"9px 12px",fontSize:12,color:T.text,background:"transparent",borderRadius:2}}>{"↓ Exportar CSV"}</button>
+            <button className="pBtn" onClick={()=>{setShowSettings(true);setShowMobileMenu(false);}} style={{display:"block",width:"100%",textAlign:"left",padding:"9px 12px",fontSize:12,color:T.text,background:"transparent",borderRadius:2}}>{"⚙ Configuración"}</button>
+            {installPromptCRM&&!installedCRM&&<button className="pBtn" onClick={()=>{handleInstallCRM();setShowMobileMenu(false);}} style={{display:"block",width:"100%",textAlign:"left",padding:"9px 12px",fontSize:12,color:T.gold,background:"transparent",borderRadius:2}}>{"⬇ Instalar app"}</button>}
             <div style={{height:1,background:T.border,margin:"4px 0"}}/>
-            <button className="pBtn" onClick={()=>onSignOut()} style={{display:"block",width:"100%",textAlign:"left",padding:"9px 12px",fontSize:12,color:T.red,background:"transparent",borderRadius:2}}>↪ Cerrar sesión</button>
+            <button className="pBtn" onClick={()=>onSignOut()} style={{display:"block",width:"100%",textAlign:"left",padding:"9px 12px",fontSize:12,color:T.red,background:"transparent",borderRadius:2}}>{"↪ Cerrar sesión"}</button>
           </div>)}
         </div>
       </div>
 
       {/* Fila 2: Vistas */}
       <div style={{display:"flex",borderTop:`1px solid ${T.border}`,overflowX:"auto"}}>
-        {[["kanban","Kanban"],["list","Lista"],["stats","Stats"],["tasks",`Tareas${pendingTasks>0?" ("+pendingTasks+")":""}`],["calendar","Agenda"]].map(([v,label])=>(
+        {[["kanban","Kanban"],["list","Lista"],["stats","Stats"],["tasks",`${"Tareas"}${pendingTasks>0?" ("+pendingTasks+")":""}`],["calendar","Agenda"]].map(([v,label])=>(
           <button key={v} className="pBtn" onClick={()=>setView(v)} style={{
             flex:1,padding:"8px 4px",fontSize:10,letterSpacing:.8,textTransform:"uppercase",
             background:"transparent",color:view===v?T.gold:T.textMuted,
@@ -752,7 +918,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
     {/* -- STATS BAR */}
     <div style={{background:T.surface,padding:"9px 18px",display:"flex",gap:28,alignItems:"center",flexWrap:"wrap"}}>
       {[
-        {label:"Pipeline",value:dbLoading?"Cargando...":fmt(pipeline),c:T.gold},
+        {label:"Pipeline",value:dbLoading?"...":fmt(pipeline),c:T.gold},
         {label:"Ganado",value:fmt(closedV),c:T.green},
         {label:"Clientes activos",value:clients.filter(c=>c.stage!==STAGES[STAGES.length-1]).length,c:T.text},
         {label:"Total clientes",value:clients.length,c:T.textMuted},
@@ -850,7 +1016,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
       {/* STATS */}
       {view==="stats"&&(<div style={{maxWidth:800,margin:"0 auto",display:"grid",gridTemplateColumns:"1fr 1fr",gap:14}}>
         <div style={{gridColumn:"1/-1",background:T.surface,border:`1px solid ${T.border}`,borderRadius:2,padding:20}}>
-          <Label>Pipeline por etapa</Label>
+          <Label>{"Pipeline por etapa"}</Label>
           {STAGES.map(stage=>{
             const scs=clients.filter(c=>c.stage===stage);
             const total=scs.reduce((s,c)=>s+Number(c.value||0),0);
@@ -892,7 +1058,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
             <span style={{fontSize:13,color:T.textMuted}}>{src}</span>
             <span style={{fontSize:14,color:T.gold,fontFamily:"'Cormorant Garamond',serif",fontWeight:600}}>{n}</span>
           </div>):null;})}
-          {clients.filter(c=>c.source).length===0&&<div style={{color:T.textDim,fontSize:12}}>Sin datos de fuente aún</div>}
+          {clients.filter(c=>c.source).length===0&&<div style={{color:T.textDim,fontSize:12}}>{"Sin datos de fuente aún"}</div>}
         </div>
       </div>)}
 
@@ -911,7 +1077,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
           <span style={{fontSize:10,color:priorityColor[t.priority],border:`1px solid ${priorityColor[t.priority]}40`,padding:"2px 8px",borderRadius:1,letterSpacing:.5}}>{t.priority}</span>
           {new Date(t.due)<new Date()&&<span style={{fontSize:10,color:T.red,border:`1px solid ${T.red}40`,padding:"2px 8px",borderRadius:1}}>Vencida</span>}
         </div>))}
-        {pendingTasks===0&&<div style={{textAlign:"center",padding:52,color:T.textDim}}><div style={{fontFamily:"'Cormorant Garamond',serif",fontSize:28,marginBottom:8}}>✓</div>Sin tareas pendientes</div>}
+        {pendingTasks===0&&<div style={{textAlign:"center",padding:52,color:T.textDim}}><div style={{fontFamily:"'Cormorant Garamond',serif",fontSize:28,marginBottom:8}}>✓</div>{"Sin tareas pendientes"}</div>}
       </div>)}
     </div>
 
@@ -1021,7 +1187,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
 
             {/* Quick send buttons */}
             <div style={{marginBottom:14}}>
-              <Label>Enviar mensaje rápido</Label>
+              <Label>{"Enviar mensaje rápido"}</Label>
               <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:6,marginBottom:8}}>
                 {[
                   {label:"📋 Enviar cotización",type:"email",msg:`Hola ${selected.name},\n\nAdjunto la cotización para el proyecto que conversamos.\n\nQuedo atento a tus comentarios.\n\nSaludos`},
@@ -1054,7 +1220,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
             <GL/>
             <div style={{height:14}}/>
 
-            <Label>Registrar actividad manual</Label>
+            <Label>{"Registrar actividad manual"}</Label>
             <select value={actType} onChange={e=>{setActType(e.target.value);setCustomActType("");}} style={{...inputS,marginBottom:8}}>
               {ACTIVITY_TYPES.map(t=><option key={t}>{t}</option>)}
             </select>
@@ -1080,15 +1246,15 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
 
           {/* TASKS TAB */}
           {detailTab==="tasks"&&(<div>
-            <Label>Nueva tarea</Label>
+            <Label>{"Nueva tarea"}</Label>
             <input value={taskTitle} onChange={e=>setTaskTitle(e.target.value)} placeholder="Descripción de la tarea..." style={{...inputS,marginBottom:8}}/>
             <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:8}}>
               <div>
-                <Label>Fecha límite</Label>
+                <Label>{"Fecha límite"}</Label>
                 <input type="date" value={taskDue} onChange={e=>setTaskDue(e.target.value)} style={inputS}/>
               </div>
               <div>
-                <Label>Prioridad</Label>
+                <Label>{"Prioridad"}</Label>
                 <select value={taskPriority} onChange={e=>setTaskPriority(e.target.value)} style={inputS}>
                   {TASK_PRIORITIES.map(p=><option key={p}>{p}</option>)}
                 </select>
@@ -1148,7 +1314,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
               {(selected.files||[]).length===0&&(
                 <div style={{textAlign:"center",padding:"28px 0",color:T.textDim}}>
                   <div style={{fontSize:32,marginBottom:8}}>📂</div>
-                  <div style={{fontSize:12}}>Sin archivos aún</div>
+                  <div style={{fontSize:12}}>{"Sin archivos aún"}</div>
                 </div>
               )}
 
@@ -1172,7 +1338,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
                               style={{background:"transparent",border:`1px solid ${T.border}`,color:T.blue,padding:"4px 8px",borderRadius:2,fontSize:11}}>↓</button>
                           )}
                           {(file.url||file.dataUrl)&&file.type&&file.type.includes("image")&&(
-                            <button className="pBtn" onClick={()=>window.open(file.url||file.dataUrl,"_blank")} title="Ver"
+                            <button className="pBtn" onClick={()=>window.open(file.url||file.dataUrl,"_blank")} title={"Ver"}
                               style={{background:"transparent",border:`1px solid ${T.border}`,color:T.gold,padding:"4px 8px",borderRadius:2,fontSize:11}}>👁</button>
                           )}
                           {file.dataUrl&&file.type.includes("pdf")&&(
@@ -1199,7 +1365,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
       <div style={{background:T.surface,border:`1px solid ${T.border}`,borderRadius:2,width:"100%",maxWidth:540,maxHeight:"92vh",display:"flex",flexDirection:"column",overflowX:"hidden",animation:"fadeUp .25s"}} onClick={e=>e.stopPropagation()}>
 
         <div style={{padding:"20px 24px",borderBottom:`1px solid ${T.border}`,flexShrink:0}}>
-          <div style={{fontFamily:"'Cormorant Garamond',serif",fontSize:22,fontWeight:600,color:T.text}}>{editing?"Editar cliente":"Nuevo cliente"}</div>
+          <div style={{fontFamily:"'Cormorant Garamond',serif",fontSize:22,fontWeight:600,color:T.text}}>{editing?L.editClientTitle:"+ Nuevo"Title}</div>
           <div style={{fontSize:9,color:T.gold,letterSpacing:2,marginTop:2,textTransform:"uppercase"}}>{editing?"Modificar registro":"Registrar contacto"}</div>
         </div>
 
@@ -1218,12 +1384,12 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
           <div style={{marginBottom:14,borderBottom:`1px solid ${T.border}`,paddingBottom:14}}>
             <div style={{fontSize:10,color:T.gold,letterSpacing:2,textTransform:"uppercase",marginBottom:10,fontWeight:600}}>Información comercial</div>
             <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:10,width:"100%",minWidth:0}}>
-              <div><Label>Valor del proyecto</Label><input type="number" value={form.value} onChange={e=>setForm({...form,value:e.target.value})} placeholder="0" style={inputS}/></div>
-              <div><Label>Moneda</Label><select value={form.currency} onChange={e=>setForm({...form,currency:e.target.value})} style={inputS}>{["MXN","USD","EUR","COP","ARS","CLP","PEN"].map(c=><option key={c}>{c}</option>)}</select></div>
-              <div><Label>Etapa</Label><select value={form.stage} onChange={e=>setForm({...form,stage:e.target.value})} style={inputS}>{STAGES.map(s=><option key={s}>{s}</option>)}</select></div>
-              <div><Label>Fuente del lead</Label><select value={form.source} onChange={e=>setForm({...form,source:e.target.value})} style={inputS}><option value="">Seleccionar...</option>{LEAD_SOURCES.map(s=><option key={s}>{s}</option>)}</select></div>
-              <div style={{minWidth:0,overflow:"hidden"}}><Label>Cierre esperado</Label><input type="date" value={form.expectedClose} onChange={e=>setForm({...form,expectedClose:e.target.value})} style={{...inputS,width:"100%",maxWidth:"100%"}}/></div>
-              <div style={{minWidth:0,overflow:"hidden"}}><Label>Último contacto</Label><input type="date" value={form.lastContact||today()} onChange={e=>setForm({...form,lastContact:e.target.value})} style={{...inputS,width:"100%",maxWidth:"100%"}}/></div>
+              <div><Label>{"Valor del proyecto"}</Label><input type="number" value={form.value} onChange={e=>setForm({...form,value:e.target.value})} placeholder="0" style={inputS}/></div>
+              <div><Label>{"Moneda"}</Label><select value={form.currency} onChange={e=>setForm({...form,currency:e.target.value})} style={inputS}>{["MXN","USD","EUR","COP","ARS","CLP","PEN"].map(c=><option key={c}>{c}</option>)}</select></div>
+              <div><Label>{"Etapa"}</Label><select value={form.stage} onChange={e=>setForm({...form,stage:e.target.value})} style={inputS}>{STAGES.map(s=><option key={s}>{s}</option>)}</select></div>
+              <div><Label>{"Fuente del lead"}</Label><select value={form.source} onChange={e=>setForm({...form,source:e.target.value})} style={inputS}><option value="">{"Seleccionar..."}</option>{LEAD_SOURCES.map(s=><option key={s}>{s}</option>)}</select></div>
+              <div style={{minWidth:0,overflow:"hidden"}}><Label>{"Cierre esperado"}</Label><input type="date" value={form.expectedClose} onChange={e=>setForm({...form,expectedClose:e.target.value})} style={{...inputS,width:"100%",maxWidth:"100%"}}/></div>
+              <div style={{minWidth:0,overflow:"hidden"}}><Label>{"Último contacto"}</Label><input type="date" value={form.lastContact||today()} onChange={e=>setForm({...form,lastContact:e.target.value})} style={{...inputS,width:"100%",maxWidth:"100%"}}/></div>
             </div>
           </div>
 
@@ -1235,8 +1401,8 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
           </div>
 
           <div style={{marginBottom:14,borderBottom:`1px solid ${T.border}`,paddingBottom:14}}>
-            <Label>Notas del proyecto</Label>
-            <textarea value={form.notes} onChange={e=>setForm({...form,notes:e.target.value})} placeholder="Detalles, acuerdos, contexto del proyecto..." rows={3} style={{...inputS,resize:"vertical",lineHeight:1.6}}/>
+            <Label>{"Notas del proyecto"}</Label>
+            <textarea value={form.notes} onChange={e=>setForm({...form,notes:e.target.value})} placeholder={"Detalles, acuerdos, contexto del proyecto..."} rows={3} style={{...inputS,resize:"vertical",lineHeight:1.6}}/>
           </div>
 
           {/* Privacy consent in form */}
@@ -1246,13 +1412,13 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
               <div onClick={()=>setForm({...form,privacyConsent:!form.privacyConsent})} style={{width:16,height:16,borderRadius:1,border:`1px solid ${form.privacyConsent?T.gold:T.border}`,background:form.privacyConsent?T.gold+"20":"transparent",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,marginTop:1,cursor:"pointer",transition:"all .2s"}}>
                 {form.privacyConsent&&<span style={{color:T.gold,fontSize:10}}>✓</span>}
               </div>
-              <span style={{fontSize:11,color:T.textMuted,lineHeight:1.6}}>El cliente ha dado su consentimiento para que sus datos sean tratados con fines comerciales, conforme al Aviso de Privacidad.</span>
+              <span style={{fontSize:11,color:T.textMuted,lineHeight:1.6}}>{"El cliente ha dado su consentimiento para que sus datos sean tratados con fines comerciales, conforme al Aviso de Privacidad."} para que sus datos sean tratados con fines comerciales, conforme al Aviso de Privacidad.</span>
             </label>
           </div>
         </div>
 
         <div style={{padding:"14px 24px",borderTop:`1px solid ${T.border}`,display:"flex",gap:10,flexShrink:0}}>
-          <button className="pBtn" onClick={()=>setShowForm(false)} style={{flex:1,background:"transparent",border:`1px solid ${T.border}`,color:T.textMuted,padding:"10px",borderRadius:2,fontSize:10,letterSpacing:2,textTransform:"uppercase"}}>Cancelar</button>
+          <button className="pBtn" onClick={()=>setShowForm(false)} style={{flex:1,background:"transparent",border:`1px solid ${T.border}`,color:T.textMuted,padding:"10px",borderRadius:2,fontSize:10,letterSpacing:2,textTransform:"uppercase"}}>{"Cancelar"}</button>
           <button className="pBtn" onClick={save} style={{flex:2,background:T.grad,color:"#0C0A08",padding:"10px",borderRadius:2,fontSize:10,fontWeight:700,letterSpacing:2,textTransform:"uppercase",boxShadow:`0 4px 20px ${T.gold}25`}}>
             {editing?"Guardar cambios":"Registrar cliente"}
           </button>
@@ -1275,8 +1441,8 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
             <button className="pBtn" onClick={()=>{const d=new Date(calDate);d.setMonth(d.getMonth()+1);setCalDate(d);}} style={{background:T.card,border:`1px solid ${T.border}`,color:T.text,padding:"6px 12px",borderRadius:2,fontSize:14}}>→</button>
           </div>
           <div style={{display:"flex",gap:8}}>
-            <button className="pBtn" onClick={()=>{setCalDate(new Date());}} style={{background:T.card,border:`1px solid ${T.border}`,color:T.textMuted,padding:"6px 12px",borderRadius:2,fontSize:11,letterSpacing:.5}}>Hoy</button>
-            <button className="pBtn" onClick={()=>{setEditingEvent(null);setEventForm({title:"",date:today(),time:"10:00",type:"Llamada",clientId:"",notes:""});setShowEventForm(true);}} style={{background:T.grad,color:"#fff",padding:"6px 14px",borderRadius:2,fontSize:11,fontWeight:700,letterSpacing:1,textTransform:"uppercase"}}>+ Evento</button>
+            <button className="pBtn" onClick={()=>{setCalDate(new Date());}} style={{background:T.card,border:`1px solid ${T.border}`,color:T.textMuted,padding:"6px 12px",borderRadius:2,fontSize:11,letterSpacing:.5}}>{L.today}</button>
+            <button className="pBtn" onClick={()=>{setEditingEvent(null);setEventForm({title:"",date:today(),time:"10:00",type:"Llamada",clientId:"",notes:""});setShowEventForm(true);}} style={{background:T.grad,color:"#fff",padding:"6px 14px",borderRadius:2,fontSize:11,fontWeight:700,letterSpacing:1,textTransform:"uppercase"}}>"+ Evento"</button>
           </div>
         </div>
 
@@ -1337,7 +1503,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
 
         {/* Upcoming events list */}
         <div style={{marginTop:20,background:T.surface,border:`1px solid ${T.border}`,borderRadius:2,padding:16}}>
-          <div style={{fontSize:9,color:T.gold,letterSpacing:2,textTransform:"uppercase",marginBottom:12,fontWeight:600}}>Próximos eventos</div>
+          <div style={{fontSize:9,color:T.gold,letterSpacing:2,textTransform:"uppercase",marginBottom:12,fontWeight:600}}>{"Próximos eventos"}</div>
           {events.filter(e=>e.date>=today()).sort((a,b)=>a.date.localeCompare(b.date)||a.time.localeCompare(b.time)).slice(0,8).map(ev=>(
             <div key={ev.id} className="rowHover" onClick={()=>{setEditingEvent(ev);setEventForm({...ev});setShowEventForm(true);}} style={{display:"flex",alignItems:"center",gap:12,padding:"8px 0",borderBottom:`1px solid ${T.border}`}}>
               <div style={{width:3,height:36,borderRadius:2,background:ev.type==="Llamada"?T.blue:ev.type==="Reunión"?T.green:ev.type==="Seguimiento"?T.gold:T.textMuted,flexShrink:0}}/>
@@ -1395,13 +1561,13 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
 
           <div style={{marginBottom:18}}>
             <div style={{fontSize:9,color:T.gold,letterSpacing:1.5,textTransform:"uppercase",marginBottom:4}}>Notas</div>
-            <textarea value={eventForm.notes||""} onChange={e=>setEventForm(ef=>({...ef,notes:e.target.value}))} placeholder="Detalles del evento..." rows={2}
+            <textarea value={eventForm.notes||""} onChange={e=>setEventForm(ef=>({...ef,notes:e.target.value}))} placeholder={"Detalles del evento..."} rows={2}
               style={{width:"100%",background:T.card,border:`1px solid ${T.border}`,borderRadius:2,padding:"9px 12px",color:T.text,fontSize:13,fontFamily:"'Jost',sans-serif",resize:"vertical"}}/>
           </div>
 
           <div style={{display:"flex",gap:8}}>
             {editingEvent&&<button className="pBtn" onClick={()=>{setEvents(events.filter(e=>e.id!==editingEvent.id));setShowEventForm(false);showN("Evento eliminado");}} style={{background:"transparent",border:`1px solid ${T.red}40`,color:T.red,padding:"10px 14px",borderRadius:2,fontSize:11}}>Eliminar</button>}
-            <button className="pBtn" onClick={()=>setShowEventForm(false)} style={{flex:1,background:T.card,border:`1px solid ${T.border}`,color:T.textMuted,padding:"10px",borderRadius:2,fontSize:11}}>Cancelar</button>
+            <button className="pBtn" onClick={()=>setShowEventForm(false)} style={{flex:1,background:T.card,border:`1px solid ${T.border}`,color:T.textMuted,padding:"10px",borderRadius:2,fontSize:11}}>{"Cancelar"}</button>
             <button className="pBtn" onClick={()=>{
               if(!eventForm.title.trim())return;
               if(editingEvent){setEvents(events.map(e=>e.id===editingEvent.id?{...eventForm,id:e.id}:e));showN("◈ Evento actualizado");}
@@ -1429,7 +1595,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
           </div>
 
           <div style={{display:"flex",borderBottom:`1px solid ${T.border}`,flexShrink:0}}>
-            {[["perfil","👤 Perfil"],["etapas","📋 Etapas"],["categoria","🏷️ Categoría"],["apariencia","🎨 Apariencia"]].map(([id,label])=>(
+            {[["perfil","👤 Perfil"],["etapas","📋 Etapas"],["categoria","🏷️ Categoría"],["apariencia","🎨 Apariencia"],["idioma","🌐 Idioma"]].map(([id,label])=>(
               <button key={id} className="tabBtn" onClick={()=>setSettTab(id)} style={{flex:1,padding:"10px 6px",fontSize:10,letterSpacing:.5,textTransform:"uppercase",background:"transparent",color:settTab===id?T.gold:T.textMuted,borderBottom:settTab===id?`2px solid ${T.gold}`:"2px solid transparent",marginBottom:-1,fontWeight:settTab===id?600:400}}>{label}</button>
             ))}
           </div>
@@ -1440,12 +1606,12 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
             {settTab==="perfil"&&(
               <div>
                 <div style={{marginBottom:14}}>
-                  <div style={{fontSize:9,color:T.gold,letterSpacing:1.5,textTransform:"uppercase",marginBottom:5,fontWeight:600}}>Tu nombre</div>
-                  <input value={settName} onChange={e=>setSettName(e.target.value)} placeholder="Tu nombre completo"
+                  <div style={{fontSize:9,color:T.gold,letterSpacing:1.5,textTransform:"uppercase",marginBottom:5,fontWeight:600}}>{"Tu nombre"}</div>
+                  <input value={settName} onChange={e=>setSettName(e.target.value)} placeholder={"Tu nombre completo"}
                     style={{width:"100%",background:T.card,border:`1px solid ${T.border}`,borderRadius:2,padding:"10px 13px",color:T.text,fontSize:14,fontFamily:"'Jost',sans-serif"}}/>
                 </div>
                 <div style={{marginBottom:22}}>
-                  <div style={{fontSize:9,color:T.gold,letterSpacing:1.5,textTransform:"uppercase",marginBottom:5,fontWeight:600}}>Nombre de tu negocio</div>
+                  <div style={{fontSize:9,color:T.gold,letterSpacing:1.5,textTransform:"uppercase",marginBottom:5,fontWeight:600}}>{"Nombre de tu negocio"}</div>
                   <input value={settCompany} onChange={e=>setSettCompany(e.target.value)} placeholder="Tu estudio o empresa"
                     style={{width:"100%",background:T.card,border:`1px solid ${T.border}`,borderRadius:2,padding:"10px 13px",color:T.text,fontSize:14,fontFamily:"'Jost',sans-serif"}}/>
                 </div>
@@ -1455,7 +1621,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
                   showN("✅ Perfil actualizado");
                   setShowSettings(false);
                 }} style={{width:"100%",background:T.grad,color:"#fff",padding:"11px",borderRadius:2,fontSize:11,fontWeight:700,letterSpacing:2,textTransform:"uppercase"}}>
-                  Guardar cambios
+                  {"Guardar cambios"}
                 </button>
               </div>
             )}
@@ -1463,7 +1629,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
             {/* ETAPAS */}
             {settTab==="etapas"&&(
               <div>
-                <p style={{fontSize:12,color:T.textMuted,marginBottom:14,lineHeight:1.6}}>Edita los nombres, reordena arrastrando o agrega nuevas etapas. Los clientes existentes mantienen su etapa.</p>
+                <p style={{fontSize:12,color:T.textMuted,marginBottom:14,lineHeight:1.6}}>{"Edita los nombres, reordena arrastrando o agrega nuevas etapas. Los clientes existentes mantienen su etapa."}</p>
                 <div style={{maxHeight:"38vh",overflowY:"auto",marginBottom:10}}>
                   {settStages.map((s,i)=>(
                     <div key={i} draggable
@@ -1490,7 +1656,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
                 <div style={{display:"flex",gap:7,marginBottom:18}}>
                   <input value={settNewStage} onChange={e=>setSettNewStage(e.target.value)}
                     onKeyDown={e=>{if(e.key==="Enter"&&settNewStage.trim()){setSettStages([...settStages,{label:settNewStage.trim(),color:PALETTE[settStages.length%PALETTE.length]}]);setSettNewStage("");}}}
-                    placeholder="+ Nueva etapa..."
+                    placeholder={"+ Nueva etapa..."}
                     style={{flex:1,background:T.card,border:`1px solid ${T.border}`,borderRadius:2,padding:"9px 12px",color:T.text,fontSize:13,fontFamily:"'Jost',sans-serif"}}/>
                   <button className="pBtn" onClick={()=>{if(settNewStage.trim()){setSettStages([...settStages,{label:settNewStage.trim(),color:PALETTE[settStages.length%PALETTE.length]}]);setSettNewStage("");}}}
                     style={{background:T.card,border:`1px solid ${T.border}`,color:T.gold,padding:"9px 14px",borderRadius:2,fontSize:17}}>+</button>
@@ -1511,7 +1677,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
                   showN("✅ Guardado correctamente");
                   setShowSettings(false);
                 }} style={{width:"100%",background:T.grad,color:"#fff",padding:"11px",borderRadius:2,fontSize:11,fontWeight:700,letterSpacing:2,textTransform:"uppercase"}}>
-                  Guardar etapas
+                  {"Guardar etapas"}
                 </button>
               </div>
             )}
@@ -1519,7 +1685,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
             {/* CATEGORÍA */}
             {settTab==="categoria"&&(
               <div>
-                <p style={{fontSize:12,color:T.textMuted,marginBottom:14,lineHeight:1.6}}>Cambia tu categoría de actividad. Las etapas se pre-cargarán con las predeterminadas de la nueva categoría.</p>
+                <p style={{fontSize:12,color:T.textMuted,marginBottom:14,lineHeight:1.6}}>{"Cambia tu categoría de actividad. Las etapas se pre-cargarán con las predeterminadas de la nueva categoría."}</p>
                 <div style={{maxHeight:"48vh",overflowY:"auto"}}>
                   {CATEGORIES.map(cat=>(
                     <div key={cat.group} style={{marginBottom:16}}>
@@ -1549,7 +1715,7 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
             {/* APARIENCIA */}
             {settTab==="apariencia"&&(
               <div>
-                <p style={{fontSize:12,color:T.textMuted,marginBottom:20,lineHeight:1.6}}>Elige la combinacion de colores de tu CRM. Se guarda automaticamente en tu cuenta.</p>
+                <p style={{fontSize:12,color:T.textMuted,marginBottom:20,lineHeight:1.6}}>{"Elige la combinación de colores de tu CRM. Se guarda automáticamente."}</p>
                 <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:10,width:"100%",minWidth:0}}>
                   {Object.values(THEMES).map(theme=>{
                     const isActive=themeId===theme.id;
@@ -1572,6 +1738,33 @@ function CRM({config,user,supabase,plan,themeId,onThemeChange,onUpgrade,onReset,
                       </button>
                     );
                   })}
+                </div>
+              </div>
+            )}
+
+            {/* LANGUAGE TAB */}
+            {settTab==="idioma"&&(
+              <div>
+                <p style={{fontSize:12,color:T.textMuted,marginBottom:20,lineHeight:1.6}}>{"Elige el idioma de la aplicación."}</p>
+                <div style={{display:"flex",flexDirection:"column",gap:10}}>
+                  {[["es","🇲🇽","Español","Español (México)"],["en","🇺🇸","English","English (US)"]].map(([code,flag,label,sub])=>(
+                    <button key={code} className="pBtn" onClick={async()=>{
+                      if(onLangChange) await onLangChange(code);
+                      setShowSettings(false);
+                    }} style={{
+                      display:"flex",alignItems:"center",gap:14,padding:"14px 16px",
+                      background:(lang||"es")===code?`${T.gold}12`:T.card,
+                      border:`2px solid ${(lang||"es")===code?T.gold:T.border}`,
+                      borderRadius:2,textAlign:"left",transition:"all .2s",
+                    }}>
+                      <span style={{fontSize:28}}>{flag}</span>
+                      <div>
+                        <div style={{fontSize:14,fontWeight:600,color:T.text,fontFamily:"'Jost',sans-serif"}}>{label}</div>
+                        <div style={{fontSize:11,color:T.textMuted,marginTop:2}}>{sub}</div>
+                      </div>
+                      {(lang||"es")===code&&<span style={{marginLeft:"auto",color:T.gold,fontSize:16}}>✓</span>}
+                    </button>
+                  ))}
                 </div>
               </div>
             )}
@@ -1759,7 +1952,7 @@ function AuthScreen({onAuth}){
 
         {/* Card */}
         <div style={{background:T.surface,border:`1px solid ${T.border}`,borderRadius:2,padding:28}}>
-          <div style={{fontSize:9,color:T.gold,letterSpacing:2,textTransform:"uppercase",marginBottom:4}}>{mode==="signup"?"Crear cuenta":mode==="forgot"?"Recuperar acceso":"Iniciar sesión"}</div>
+          <div style={{fontSize:9,color:T.gold,letterSpacing:2,textTransform:"uppercase",marginBottom:4}}>{mode==="signup"?"Crear cuenta":mode==="forgot"?"¿Olvidaste tu contraseña?":"Iniciar sesión"}</div>
           <div style={{fontFamily:"'Cormorant Garamond',serif",fontSize:22,fontWeight:600,color:T.text,marginBottom:20}}>{mode==="signup"?"Bienvenido a Bobul":mode==="forgot"?"¿Olvidaste tu contraseña?":"Accede a tu cuenta"}</div>
 
           {error&&<div style={{background:`${T.red}15`,border:`1px solid ${T.red}40`,borderRadius:2,padding:"9px 12px",fontSize:12,color:T.red,marginBottom:12}}>{error}</div>}
@@ -1903,7 +2096,7 @@ export default function App(){
     <div style={{minHeight:"100vh",background:T.bg,display:"flex",alignItems:"center",justifyContent:"center",fontFamily:"'Cormorant Garamond',serif"}}>
       <div style={{textAlign:"center"}}>
         <div style={{fontSize:48,color:T.gold,marginBottom:12,animation:"glow 2s infinite"}}>◈</div>
-        <div style={{fontSize:14,color:T.textMuted,letterSpacing:2}}>Cargando Bobul...</div>
+        <div style={{fontSize:14,color:T.textMuted,letterSpacing:2}}>{"Cargando Bobul..."}</div>
       </div>
     </div>
   );
